@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.0.final using JasperReports Library version 6.12.1-ac0eebdb29e4c0985457bab279a6db744d661530  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Rec_Pag" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="12" bottomMargin="12" uuid="99af2b88-7f3f-4387-af69-11c5d524d9a2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="818" splitType="Stretch">
+			<staticText>
+				<reportElement x="355" y="30" width="200" height="20" forecolor="#3C3033" uuid="2a3fe980-6b44-4625-96ef-62359fa5f7f6"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="14" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO PARA PAGO DE PRIMAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="386" y="50" width="169" height="16" forecolor="#3B3033" uuid="72410b69-a387-4706-8f31-4ace7012df49"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="13" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PARA EL AGENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="73" width="555" height="1" uuid="14da608f-a16b-430a-9a20-00d925e3b188">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<rectangle radius="1">
+				<reportElement x="0" y="79" width="239" height="172" uuid="ba130aac-d63a-43c4-b50f-33a81136d959"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="340" y="79" width="47" height="40" uuid="95a2ef8b-bb9f-4225-95e3-e6ae2effa458"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="463" y="79" width="92" height="40" uuid="ab9fcbe4-3d36-4d36-804d-35a48189f8db"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="79" width="90" height="40" uuid="fa7bb5ae-a6ef-4a49-a508-89ae1a6a3387"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="387" y="79" width="76" height="40" uuid="ac8b39c7-dd8a-461e-aea7-777052b97f5a"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="129" width="220" height="52" uuid="ed14fe7a-39c5-418a-9662-1af46f43a996"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="470" y="129" width="85" height="52" uuid="6b175075-e5a4-42bf-89a2-3d62d917916b"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="181" width="305" height="117" uuid="0367c81f-3849-4884-8118-dda749b14724"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="0" y="256" width="239" height="52" uuid="2fed4ca6-d8ed-4525-9e62-e73e23a1597c"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="292" width="305" height="16" uuid="c639a500-5507-4fec-8ada-048ee1c4348a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="1" y="80" width="237" height="15" backcolor="#E3E3E3" uuid="c00c9b07-0f6f-4184-8bbf-194b26b08207"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="251" y="80" width="88" height="15" backcolor="#E3E3E3" uuid="7b761cf7-df67-43ca-92de-328917fefdfc"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="341" y="80" width="45" height="15" backcolor="#E3E3E3" uuid="5b3016cc-11cb-4e13-8467-ae89e412a073"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="388" y="80" width="74" height="15" backcolor="#E3E3E3" uuid="b4d44859-4d6f-47a4-a29a-89daaec32758"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="464" y="80" width="90" height="15" backcolor="#E3E3E3" uuid="bfcc68c3-2c8f-47db-97c6-2a6f00d4ec16"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="80" width="238" height="15" forecolor="#3C3033" uuid="987a1406-e0a3-49e2-91a3-217b43de519d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DATOS DEL CONTRATANTE/ASEGURADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="79" width="89" height="16" forecolor="#3C3033" uuid="14f45ba5-bcf4-47d0-995e-376d0c5e25ee"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FECHA DE EMISIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="341" y="79" width="46" height="16" forecolor="#3C3033" uuid="6a396370-43e9-43af-ba13-155fdcd3e16d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="389" y="79" width="72" height="16" forecolor="#3C3033" uuid="f0c7e9c8-169c-4695-bca0-9c5899e31427"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FORMA DE PAGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="79" width="90" height="16" forecolor="#3C3033" uuid="c3b694e2-000d-4eaa-a1e8-63e36ad4566d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FECHA LÍMITE DE PAGO]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="251" y="130" width="218" height="15" backcolor="#E3E3E3" uuid="ac44289e-1f1b-4015-884c-5e6942e72087"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="471" y="130" width="83" height="15" backcolor="#E3E3E3" uuid="adaa217e-6112-4eac-b043-6c6c40f0f9af"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="251" y="129" width="218" height="16" forecolor="#3C3033" uuid="ccf55f35-7ec6-4013-aead-8ebc801b4ff6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PERIODO DE VIGENCIA QUE CUBRE ESTE RECIBO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="471" y="129" width="83" height="16" forecolor="#3C3033" uuid="7cc1db58-c9d3-44a4-94de-316fafced0ad"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="147" width="58" height="16" forecolor="#3C3033" uuid="a20e23f3-532f-4a5f-bb49-5aae909bcfeb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Desde las]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="163" width="56" height="16" forecolor="#3C3033" uuid="057ff553-5b98-4da8-b39a-d2f7c3480e43"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Del]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="163" width="56" height="16" forecolor="#3C3033" uuid="83f01f10-9b45-448d-9f7a-b8a82b9c2900"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Del]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="147" width="58" height="16" forecolor="#3C3033" uuid="ff0ca85b-0cc3-4de3-ada4-4f42b8d0d607"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Hasta las]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="189" width="69" height="10" forecolor="#3C3033" uuid="eac0f333-0273-4648-a13c-9a590a39e4a6"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CONCEPTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="202" width="69" height="10" forecolor="#3C3033" uuid="5c841a5e-3358-4c7d-baca-dd050365b6e0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PRIMA NETA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="215" width="130" height="10" forecolor="#3C3033" uuid="926e02cf-a8b7-4fd9-a1e0-e78cea41509e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECARGO PAGO FRACCIONADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="228" width="130" height="10" forecolor="#3C3033" uuid="ffd082ce-b741-42a6-8922-0dc30536e4ec"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[GASTOS DE EXPEDICIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="241" width="130" height="10" forecolor="#3C3033" uuid="9cb8d7a2-a27d-4efa-ad36-80db6431c80b"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BONIFICACIÓN ART. 41]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="254" width="130" height="10" forecolor="#3C3033" uuid="60348561-e4fa-42f1-a2e4-de0b8607a41d"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[I.V.A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="269" width="130" height="10" forecolor="#3C3033" uuid="36ccd85e-cb3c-42bd-8093-902781150c0e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[TOTAL A PAGAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="202" width="16" height="10" forecolor="#3C3033" uuid="5c4dba75-5aa2-4856-8097-2c178c710943"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="228" width="16" height="10" forecolor="#3C3033" uuid="c062b48e-4f77-4077-8645-241686a3d629"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="215" width="16" height="10" forecolor="#3C3033" uuid="58b454d2-6fb3-412e-acb7-0803a69739bd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="241" width="16" height="10" forecolor="#3C3033" uuid="8d88054d-031e-41f1-b672-5fea9234a9d1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="254" width="16" height="10" forecolor="#3C3033" uuid="cfafcada-0360-4f4d-8d3a-9c081f080e2c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="269" width="16" height="10" forecolor="#3C3033" uuid="15ee4af7-51b6-4e93-a9e5-ab558624576a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="251" y="293" width="101" height="14" backcolor="#E3E3E3" uuid="066c5387-ff3a-45fd-b6c0-62854e682fc3"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="270" y="295" width="68" height="10" forecolor="#3C3033" uuid="e0d8469d-b6b7-44c5-af28-c799cccb4fdf"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PRIMA TOTAL]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="1" y="257" width="237" height="14" backcolor="#E3E3E3" uuid="d6d700cb-4436-4f01-aaf8-627c7ca4128f"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="259" width="224" height="10" forecolor="#3C3033" uuid="93c59da6-acfd-4754-9e7b-b79969d2d4f7"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[OBJETO DEL SEGURO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="129" width="58" height="16" forecolor="#3C3033" uuid="aff109c7-fc1a-4962-9ccc-25e21506d584"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DIRECCIÓN:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="136" y="129" width="58" height="16" forecolor="#3C3033" uuid="5a1f45ac-b7dd-446b-b865-d4135d620625"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[R.F.C.:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="149" width="31" height="16" forecolor="#3C3033" uuid="52b3dc8d-0706-4617-94e0-b214ec56857f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[C.P.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="199" width="220" height="1" uuid="3f758690-814b-494e-a929-a8afd7fe4562">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="12" y="199" width="58" height="16" forecolor="#3C3033" uuid="33de43f5-7d66-4412-b6b0-9b3db1d41ac2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CLIENTE:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="199" width="58" height="16" forecolor="#3C3033" uuid="2b0330d9-3054-46b1-b3f9-c177e1eaf5d7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PÓLIZA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="219" width="45" height="16" forecolor="#3C3033" uuid="73046d08-6919-4bf9-9101-ea0b9faa4b8f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SUCURSAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="66" y="219" width="25" height="16" forecolor="#3C3033" uuid="4a74342d-c764-4feb-9db4-1bfeed1fa630"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RAMO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="219" width="50" height="16" forecolor="#3C3033" uuid="d3c6482a-baf2-4267-ba7f-62c1d1dc93a1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[TIPO ENDOSO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="219" width="30" height="16" forecolor="#3C3033" uuid="6c935e82-b365-4fbf-bbf4-dc50e4e6a512"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ENDOSO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="201" y="219" width="34" height="16" forecolor="#3C3033" uuid="185f8bf6-3bcb-4705-8abe-e1b80f1a8961"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MONEDA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="231" width="220" height="1" uuid="aa53c99b-ad85-4a59-b120-5702b4437c3e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="12" y="246" width="220" height="1" uuid="e3bc1ed0-daf5-416c-9e3b-f51f2b6bed97">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<rectangle radius="1">
+				<reportElement x="0" y="315" width="352" height="20" uuid="e4360943-3478-4693-9758-5c260446384c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="1" y="316" width="56" height="18" backcolor="#E3E3E3" uuid="4ca098af-9973-473d-9d7b-9dc177bfc71f"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="12" y="320" width="38" height="10" forecolor="#3C3033" uuid="5ce2cb61-c09c-476f-bf2d-4afadccf600d"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[AGENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="295" width="16" height="10" forecolor="#3C3033" uuid="dece055a-a1e3-49d4-9594-18b8bda448d7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="346" width="555" height="1" uuid="e7c33c68-a1d1-47a1-b1fb-7e8193b75320">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="180" y="0" width="173" height="14" forecolor="#7D7D7D" uuid="a4a7db51-bc63-4627-adac-dbbd958d2676"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lugar de expedición:]]></text>
+			</staticText>
+			<rectangle radius="1">
+				<reportElement x="0" y="696" width="300" height="31" uuid="258ceb7f-ce7b-4f46-a5ae-17075428995e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="1" y="697" width="56" height="29" backcolor="#E3E3E3" uuid="609000ee-6eb2-4b51-9cc8-2374788728d3"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="8" y="697" width="46" height="29" forecolor="#3C3033" uuid="18bc5b4e-3243-4b2f-bffd-5773fe518478"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Opciones 
+de pago]]></text>
+			</staticText>
+			<rectangle radius="1">
+				<reportElement x="300" y="696" width="255" height="31" uuid="ad2bf5e7-4336-46e1-9984-960188487348">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="180" y="15" width="173" height="15" forecolor="#3C3033" uuid="ed7bd6e0-be88-40d3-92ce-de8f7be2f9fa"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[<b>General de Seguros S.A.B.</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="25" width="173" height="15" forecolor="#3C3033" uuid="5120f2f4-eec5-4321-9e2b-3b7cbe62482d"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Patriotismo 266]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="34" width="173" height="15" forecolor="#3C3033" uuid="98059128-0f20-4ae6-9fb4-5cba8439891c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[San Pedro de los Pinos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="43" width="173" height="15" forecolor="#3C3033" uuid="76fb22d3-4e6b-408c-8ae7-98b9d4a85177"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[03800 | CDMX | Tel. 5270.8000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="52" width="173" height="15" forecolor="#3C3033" uuid="1302ae19-c2e4-4bec-9e69-d9bf71b59457"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[<b>R.F.C.:GSE720216JJ6</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="386" width="200" height="20" forecolor="#3C3033" uuid="471da60a-30dd-4e1b-b4e1-21911ed5989f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="14" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO PARA PAGO DE PRIMAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="386" y="406" width="169" height="16" forecolor="#3B3033" uuid="85c77eb1-183d-4430-8549-a0e6063ac85a"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="13" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PARA EL CLIENTE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="429" width="555" height="1" uuid="a95314cf-0fcd-43c5-ba2c-08883a457c1a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<rectangle radius="1">
+				<reportElement x="0" y="435" width="239" height="172" uuid="a5d82ca2-7a9b-49c9-886b-5d2245e67735"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="340" y="435" width="47" height="40" uuid="da659b33-665e-4a75-8e81-2067fb4ce65a"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="463" y="435" width="92" height="40" uuid="5baaf3a4-6083-487b-8d22-c6acab27eacd"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="435" width="90" height="40" uuid="b62d7c72-ab89-426e-b09c-2ca7efca67fc"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="387" y="435" width="76" height="40" uuid="dc379144-ed84-4688-ab67-5440caddc33d"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="485" width="220" height="52" uuid="52e9bf64-6559-45e9-bcef-61f785f15f2c"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="470" y="485" width="85" height="52" uuid="8aca34b0-3e43-41a0-86df-897bd1e490d2"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="537" width="305" height="117" uuid="7cf4631d-9672-420a-942c-5d200886220b"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="0" y="612" width="239" height="52" uuid="9ec66d8e-1a62-4c25-a733-000c2aaa7fa1"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement x="250" y="648" width="305" height="16" uuid="efcd5ccb-127e-4512-b067-135c0f3f7d95">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="1" y="436" width="237" height="15" backcolor="#E3E3E3" uuid="2eb5e8f7-cead-49c7-878e-d2a841fe1957"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="251" y="436" width="88" height="15" backcolor="#E3E3E3" uuid="6a8ba13e-c06b-4c0a-be92-a220633fbb4a"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="341" y="436" width="45" height="15" backcolor="#E3E3E3" uuid="761ba716-8b68-452e-a2cf-34bb86e0ee46"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="388" y="436" width="74" height="15" backcolor="#E3E3E3" uuid="6f1c4050-1456-41ce-81f2-ec681d6a6961"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="464" y="436" width="90" height="15" backcolor="#E3E3E3" uuid="accc8513-5283-4fc3-9f20-b9ca09ddb24c"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="436" width="238" height="15" forecolor="#3C3033" uuid="3e522d12-a8f4-474e-8d44-33d52b34ee39"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DATOS DEL CONTRATANTE/ASEGURADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="435" width="89" height="16" forecolor="#3C3033" uuid="64f62293-c966-4af4-9bbd-71200068cae0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FECHA DE EMISIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="341" y="435" width="46" height="16" forecolor="#3C3033" uuid="ce3903c5-ea2a-4d4d-80ac-c879dbccd61f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="389" y="435" width="72" height="16" forecolor="#3C3033" uuid="c2538d32-b9e9-4a2f-b979-cb84834585df"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FORMA DE PAGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="435" width="90" height="16" forecolor="#3C3033" uuid="a4d0db4e-146d-4012-8546-e0f34913aaf0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[FECHA LÍMITE DE PAGO]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="251" y="486" width="218" height="15" backcolor="#E3E3E3" uuid="0d790493-e631-47e7-9d08-25ae8ab20246"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="471" y="486" width="83" height="15" backcolor="#E3E3E3" uuid="2471ee1c-cbf1-4c2f-b487-a6cc504ca04d"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="251" y="485" width="218" height="16" forecolor="#3C3033" uuid="6c24ef67-7b80-402c-bf8b-3a0b1aadcb65"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PERIODO DE VIGENCIA QUE CUBRE ESTE RECIBO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="471" y="485" width="83" height="16" forecolor="#3C3033" uuid="56f03eea-2dec-490f-9220-2dade516451f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECIBO No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="503" width="58" height="16" forecolor="#3C3033" uuid="ace3c228-a242-4d95-95d9-4e87346f5f40"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Desde las]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="519" width="56" height="16" forecolor="#3C3033" uuid="c8ea7d9d-7eaa-486d-8688-9cdfaf8d45db"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Del]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="519" width="56" height="16" forecolor="#3C3033" uuid="da19aa53-cc5e-45d5-a238-6e90e7dfb9d4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Del]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="503" width="58" height="16" forecolor="#3C3033" uuid="f78dbc0c-3021-4efc-96aa-540f35716807"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Hasta las]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="545" width="69" height="10" forecolor="#3C3033" uuid="eeea37e4-822b-4100-9d75-46c6727d9f21"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CONCEPTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="558" width="69" height="10" forecolor="#3C3033" uuid="5110b87c-9e59-4052-a173-fab5165cffab"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PRIMA NETA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="571" width="130" height="10" forecolor="#3C3033" uuid="2740a461-2739-4173-83ce-9be0a79bc197"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RECARGO PAGO FRACCIONADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="584" width="130" height="10" forecolor="#3C3033" uuid="59e5e00d-e70d-41e7-946b-0bde9cf21096"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[GASTOS DE EXPEDICIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="597" width="130" height="10" forecolor="#3C3033" uuid="83bfd6d1-b60f-4901-a287-a82992e4e2a1"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BONIFICACIÓN ART. 41]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="610" width="130" height="10" forecolor="#3C3033" uuid="bc48deb1-c2a8-4fc0-8c36-8e77e171d6cb"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[I.V.A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="625" width="130" height="10" forecolor="#3C3033" uuid="ef7c7012-1c53-4f87-9c30-d3e55c988b12"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[TOTAL A PAGAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="558" width="16" height="10" forecolor="#3C3033" uuid="a833692d-e71c-4139-b5b1-4360002297ed"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="584" width="16" height="10" forecolor="#3C3033" uuid="e58e324d-c3fd-4857-9360-451c293e1b39"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="571" width="16" height="10" forecolor="#3C3033" uuid="08ba1723-ad68-4d21-a46e-a903092cbcbd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="597" width="16" height="10" forecolor="#3C3033" uuid="356900a8-582c-44ba-8610-4ab42aa07561"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="610" width="16" height="10" forecolor="#3C3033" uuid="85e21051-6dba-4083-92d7-28003a26996e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="625" width="16" height="10" forecolor="#3C3033" uuid="b9dbdd5a-5ff3-484f-aa8f-c7ba8fdb166f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="251" y="649" width="101" height="14" backcolor="#E3E3E3" uuid="eb48ee98-1ac3-409f-bea4-ae3842409156"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="270" y="651" width="68" height="10" forecolor="#3C3033" uuid="9fc49348-48df-4387-95c1-2dfeda9f8e0d"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PRIMA TOTAL]]></text>
+			</staticText>
+			<rectangle radius="2">
+				<reportElement x="1" y="613" width="237" height="14" backcolor="#E3E3E3" uuid="e1bffc57-c1ca-4d8b-a8e8-beb2edd564c8"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="615" width="224" height="10" forecolor="#3C3033" uuid="51b36b5b-871e-4ba2-a131-01e2dcbf9275"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[OBJETO DEL SEGURO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="485" width="58" height="16" forecolor="#3C3033" uuid="d13a7a9d-0891-45a6-ab60-3f45cbe6a093"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DIRECCIÓN:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="136" y="485" width="58" height="16" forecolor="#3C3033" uuid="deea3ade-d028-4ebc-b949-850e6f9ee51c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[R.F.C.:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="505" width="31" height="16" forecolor="#3C3033" uuid="38f7402c-c3fb-4bae-a71d-b2a7f665b785"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[C.P.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="555" width="220" height="1" uuid="0832b74e-ee0d-42c4-8729-51e70a86299a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="12" y="555" width="58" height="16" forecolor="#3C3033" uuid="949c326a-0308-4894-a128-433921cfcbf8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CLIENTE:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="555" width="58" height="16" forecolor="#3C3033" uuid="39ceb037-0877-4ca5-8dcf-9fa2bd053474"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PÓLIZA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="575" width="45" height="16" forecolor="#3C3033" uuid="18483416-55c9-443e-9650-2208b6be5b19"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SUCURSAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="66" y="575" width="25" height="16" forecolor="#3C3033" uuid="e47eb38f-382c-4e79-b260-d0bbae2d1e83"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RAMO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="575" width="50" height="16" forecolor="#3C3033" uuid="6a2653dd-da7b-4999-b038-287fd68bd3bc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[TIPO ENDOSO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="575" width="30" height="16" forecolor="#3C3033" uuid="146d5db5-a9b5-4ec8-8e95-0f2716bcb9dd"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ENDOSO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="201" y="575" width="34" height="16" forecolor="#3C3033" uuid="18bc42d4-4aad-416f-98a5-07acab73191a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MONEDA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="587" width="220" height="1" uuid="4d5e7c06-60eb-4fe4-b6ee-1243d7d2fe6a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="12" y="602" width="220" height="1" uuid="2995c24c-249c-45d1-b16d-4d97a77fcea4">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<rectangle radius="1">
+				<reportElement x="0" y="670" width="352" height="20" uuid="e150f11e-7db3-469e-be8c-82c21b98281a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle radius="2">
+				<reportElement x="1" y="671" width="56" height="18" backcolor="#E3E3E3" uuid="e5ebfb1a-a38f-4054-8076-f7143488a3e9"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="12" y="675" width="38" height="10" forecolor="#3C3033" uuid="3aa33035-d220-4bcd-a6f1-ae17b7e9e8e5"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[AGENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="651" width="16" height="10" forecolor="#3C3033" uuid="dc4ed89d-04ff-4d97-8d5f-cc638da62e55"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="697" width="90" height="10" forecolor="#3C3033" uuid="be68280d-d892-4c78-86b9-4be4b79c98e5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[.VENTANILLA BANCARIA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="707" width="184" height="10" forecolor="#3C3033" uuid="082c8fa4-4883-46aa-b93f-f695b74d3a6c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[.CALL CENTER (BUZÓN INTERACTIVO): Tel. 800-288 | ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="717" width="52" height="10" forecolor="#3C3033" uuid="6c70550b-543c-4bd6-b1d7-7f53f5721254"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[.PÁGINA WEB:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="698" width="254" height="29" forecolor="#3C3033" uuid="7e7c8f47-4319-4e0b-8cd0-67a34893fb68"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[En caso de requerir una liga para realizar el <b>pago con tarjeta de crédito
+o débito</b>, podrá solicitarse <b>a traves de call center</b> llamando al
+<b>800.288.4747</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="697" width="140" height="10" forecolor="#3C3033" uuid="292deb5f-722f-4f33-9bd2-d0da61139c48"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BANAMEX, BBVA, HSBC Y SANTANDER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="241" y="707" width="48" height="10" forecolor="#3C3033" uuid="77a8a060-1efc-4d2e-81ca-8e018121ea1b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Opción 2 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="111" y="717" width="108" height="10" forecolor="#3C3033" uuid="9b0319e2-60bd-470a-9b71-59f9f8c78d3c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ www.generaldeseguros.mx]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="409" width="173" height="15" forecolor="#3C3033" uuid="e474a7d2-e3a0-429c-958f-b41f8d4ca824"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[<b>R.F.C.:GSE720216JJ6</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="400" width="173" height="15" forecolor="#3C3033" uuid="1b4f8528-32e6-4149-8744-010c5bea206b"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[03800 | CDMX | Tel. 5270.8000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="391" width="173" height="15" forecolor="#3C3033" uuid="fe60b956-c9a4-4054-867b-18d6b5e911d3"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[San Pedro de los Pinos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="382" width="173" height="15" forecolor="#3C3033" uuid="438d2eb5-da5e-474f-b04f-6df2683b69f5"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Patriotismo 266]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="372" width="173" height="15" forecolor="#3C3033" uuid="7b0bf174-b75b-431b-b64d-10448d6f4769"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[<b>General de Seguros S.A.B.</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="357" width="173" height="14" forecolor="#7D7D7D" uuid="c7279bf0-a9e9-486f-8b98-d137f831c164"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lugar de expedición:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="732" width="130" height="85" backcolor="#E3E3E3" uuid="7dd6edc0-4ff9-4728-b7e3-1222507c9542"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="732" width="130" height="1" uuid="5047a1b4-5421-44b4-9456-fdcc24681b06">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="123" y="732" width="431" height="1" uuid="cbaf018d-3dcb-4a85-adcf-94be9829ec65">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="142" y="732" width="284" height="17" forecolor="#3C3033" uuid="1f277c92-7335-4cd7-a6f2-7483ea4ff9b6"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Referencias para pago en ventanilla o plataforma bancaria]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="360" y="757" width="194" height="35" backcolor="#E3E3E3" uuid="ca3dd64f-9c33-421b-b0b7-91d220dfdbd5"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="142" y="752" width="66" height="10" forecolor="#3C3033" uuid="e07c37b2-fa5c-40a7-ac39-b2d8bd99684e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BBVA BANCOMER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="762" width="102" height="10" forecolor="#3C3033" uuid="5c3dc4d5-b16b-4f09-bce8-bc70d4708fea"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SPEI REFERENCIADO (BBVA)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="772" width="66" height="10" forecolor="#3C3033" uuid="4a585a39-af07-4bc8-a037-31b6a7bbc668"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SANTANDER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="782" width="66" height="10" forecolor="#3C3033" uuid="58f7aa15-6dd0-4aef-9cef-d1353c0d55aa"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[HSBC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="792" width="66" height="10" forecolor="#3C3033" uuid="13964268-16f8-478f-b154-84520432db8f"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BANAMEX]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="763" width="175" height="11" forecolor="#3C3033" uuid="ebea61f8-ddfd-434e-b255-0d1e8e9aee1e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[REFERENCIA ÚNICA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="774" width="175" height="11" forecolor="#3C3033" uuid="4ac6fcf3-ec08-4237-a4dc-1d1a41b27cfb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[00001120000122306210]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="735" width="95" height="23" forecolor="#3C3033" uuid="97696aba-71f7-4d1f-81e4-adfaf518f79c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Evita hacer filas cada mes en el banco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="758" width="95" height="16" forecolor="#3C3033" uuid="10948109-4866-4a2d-9077-79b9ff88a77d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[¡Domicilia tu póliza!]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="774" width="129" height="23" forecolor="#3C3033" uuid="2502c125-c436-43e9-8779-01153a041ac4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[En el portal de General de Seguros o marca al call center]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="797" width="95" height="16" forecolor="#3C3033" uuid="1bc1b7d0-36b2-4652-aa9e-77a08bf8235e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="9" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[800.288.4747]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="802" width="20" height="16" forecolor="#3C3033" uuid="e048ff0c-bf42-4704-93bf-4a219231b470"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Nota:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="802" width="348" height="16" forecolor="#3C3033" uuid="d082a041-91f7-4e41-955f-0f475885d1e3"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Para pagos a traves de plataforma bancaria, dar de alta el convenio o servicio  que corresponda y capturar la referencia única en el campo de "Concepto".]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="251" y="752" width="79" height="10" forecolor="#3C3033" uuid="648585d8-1852-4d7d-b39d-67f9ca7f4cf4"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CONVENIO CIE 990345]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="251" y="762" width="102" height="10" forecolor="#3C3033" uuid="2f4531f7-d699-4198-9558-2c682a072955"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CLABE: 012914002009903455]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="251" y="772" width="79" height="10" forecolor="#3C3033" uuid="5320f843-f7e2-4b70-81a1-80aa82ab2279"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SERVICIO          6223]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="251" y="782" width="79" height="10" forecolor="#3C3033" uuid="ad98eee3-93ef-4912-ad32-14e28115d68a"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[HSBC                  7903]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="251" y="792" width="79" height="10" forecolor="#3C3033" uuid="b01c26fe-6ee6-4a3e-bf86-cb22f7f733f1"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BANAMEX        4631-01]]></text>
+			</staticText>
+		</band>
+		<band height="818">
+			<rectangle radius="1">
+				<reportElement mode="Transparent" x="80" y="197" width="399" height="183" uuid="1082192f-5e53-4fb7-826a-74a332dc0e87"/>
+			</rectangle>
+			<rectangle radius="1">
+				<reportElement mode="Opaque" x="180" y="170" width="199" height="50" uuid="6b6b03f2-8168-4974-a4fd-bf8484f15a1f"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="192" y="190" width="175" height="11" forecolor="#3C3033" uuid="538b6179-ec5b-4a1a-9015-88cf801e2204"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ABREVIATURAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="220" width="58" height="10" forecolor="#3C3033" uuid="d6161111-1f86-4992-82ca-400d4a5d8777"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Av.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="230" width="58" height="10" forecolor="#3C3033" uuid="c97e8c41-f684-45cc-a253-56e0d455ab44"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[C.P.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="240" width="58" height="10" forecolor="#3C3033" uuid="4495c3cc-b2ad-4536-b204-a204f76370e3"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CLABE.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="250" width="58" height="10" forecolor="#3C3033" uuid="18b58e5a-a2e8-4366-968a-5ed34a6b7ff0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Col.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="260" width="58" height="10" forecolor="#3C3033" uuid="69f95363-ca0d-4f93-8f32-69c40c9611c5"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CDMX.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="270" width="58" height="10" forecolor="#3C3033" uuid="9c66d715-c854-46e4-bc49-eb6067ef1e41"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Deleg.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="280" width="58" height="10" forecolor="#3C3033" uuid="c250f583-ea60-48f8-9766-fb129c8df0fe"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Fracc.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="290" width="58" height="10" forecolor="#3C3033" uuid="2d2fa8ae-3636-4a10-9b78-12488b2878cd"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Hrs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="300" width="58" height="10" forecolor="#3C3033" uuid="8b8ac03a-50d9-404a-b667-5d8319c99a11"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[I.V.A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="310" width="58" height="10" forecolor="#3C3033" uuid="2edbd09d-95a9-4ae4-8afd-b77e22ad408f"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[M.N.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="320" width="58" height="10" forecolor="#3C3033" uuid="2ab1948a-cf90-4aae-8c24-b208a0e96f74"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="330" width="58" height="10" forecolor="#3C3033" uuid="4cdee416-0862-45ca-8ee7-749a79c270b0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[REF.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="340" width="58" height="10" forecolor="#3C3033" uuid="1015cb81-a0dd-42c4-86ed-6bf866d77ff7"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[R.F.C.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="350" width="58" height="10" forecolor="#3C3033" uuid="426c4208-2f99-4e24-9aad-eed99743f731"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Tel.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="220" width="58" height="10" forecolor="#3C3033" uuid="0da44ad2-efa5-4990-b715-f01a7b8c6a87"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Avenida]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="350" width="58" height="10" forecolor="#3C3033" uuid="65b41414-90ca-4250-a3b4-1fca33c08417"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Teléfono]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="340" width="152" height="10" forecolor="#3C3033" uuid="27911b94-dcd3-4157-a3bd-94f34023a38e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Registro Federal de Contribuyente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="330" width="58" height="10" forecolor="#3C3033" uuid="b6908df6-b353-41ec-ad3e-e1f05b03ec5c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Referencia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="320" width="58" height="10" forecolor="#3C3033" uuid="13ba2354-7fa9-4525-9b69-a00e68336691"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Número]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="310" width="58" height="10" forecolor="#3C3033" uuid="a884f754-401b-4dd9-8d39-c1f8169caba9"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Moneda Nacional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="300" width="128" height="10" forecolor="#3C3033" uuid="f8306002-8e48-4f07-8e4f-bd2091c7ddd2"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Impuesto al Valor Agregado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="290" width="58" height="10" forecolor="#3C3033" uuid="b7578cbd-68ac-468e-9bd5-b0d7812a396c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Horas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="280" width="58" height="10" forecolor="#3C3033" uuid="ac524916-57dc-4fc7-b874-c50eaa2e3b51"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Fraccionado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="270" width="58" height="10" forecolor="#3C3033" uuid="35a97e62-016d-4f2c-8453-5b383e0824b0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Delegación]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="260" width="72" height="10" forecolor="#3C3033" uuid="acfa0808-9c5c-4c7b-a0d7-2afa2b928c47"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Ciudad de México]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="240" width="128" height="10" forecolor="#3C3033" uuid="5d9bf8a9-c14f-46ea-baff-2bf7002afb73"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Clave Bancaria Estandarizada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="250" width="58" height="10" forecolor="#3C3033" uuid="e715b5ae-895e-4462-9253-e793fa6c0c7e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Colonia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="230" width="58" height="10" forecolor="#3C3033" uuid="52655519-f001-402f-8314-2b996a013f13"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Código Postal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="440" width="554" height="29" forecolor="#3C3033" uuid="06e506f3-20d0-4a41-bdd8-4c61c7817401"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Verifique la aplicación del pago de su póliza y el estatus de la misma, la factura se enviara vía correo electrónico, o en su caso podrá ingresar a 
+www.generaldeseguros.mx (menú: "Servicios", opción "Facturas digitales"). Sólo requiere, clave de cliente, sucursal, ramo y número de póliza.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="420" width="554" height="20" forecolor="#3C3033" uuid="5395b3a4-5f41-48a6-bba8-bb296fd179fe"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="Klavika Md" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Estimado Asegurado :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="469" width="22" height="15" forecolor="#000000" uuid="34777080-dc00-46de-918b-6b0692108375"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="484" width="22" height="19" forecolor="#000000" uuid="d52e95ce-456a-4850-9c42-6fa491a5ea29"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="524" width="22" height="23" forecolor="#000000" uuid="1ec66bd7-c609-4c87-a88a-ea2b19e47fcb"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="554" width="22" height="26" forecolor="#000000" uuid="d5ffbf7b-f66b-49aa-aef8-06885bdf8b33"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="570" width="22" height="26" forecolor="#000000" uuid="4a5c43d9-1309-491c-a45c-2c26b2b25c64"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="587" width="22" height="26" forecolor="#000000" uuid="5e027e1a-21fa-4dfc-b788-d17ad1ad7889"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="614" width="22" height="26" forecolor="#000000" uuid="d757f678-2614-4456-aa2c-d9452d31fa30"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="614" width="535" height="18" forecolor="#000000" uuid="0bf77f1d-b184-4fb2-be0f-210f9da0b563"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Para pago en web utilizar https://gswas.com.mx/CASAdmin/AltaCliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="587" width="535" height="26" forecolor="#000000" uuid="a7c1f60e-7468-48a6-8b30-a9782cc435fd"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Para conservar los beneficios de la Póliza, es necesario efectuar el pago por el importe que corresponda y antes de la fecha de vencimiento.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="570" width="535" height="18" forecolor="#000000" uuid="a5e0b034-eb54-4ac5-851e-25abe14f41d7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Si el pago se efectúa con cheque del mismo banco será cobrado y abonado en firme.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="554" width="524" height="16" forecolor="#000000" uuid="55f7661e-dee3-4344-8c20-f892aafaf05d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Si el pago se efectúa con cheque del mismo banco será cobrado y abonado en firme.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="525" width="535" height="31" forecolor="#000000" uuid="b0438a63-131d-46ef-a310-6c25da8891ab"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Si el pago se efectúa con cheque distinto al banco en que se deposita, será recibido salvo buen cobro de acuerdo con el Artículo 7 de la Ley General de Títulos y Operaciones de Crédito.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="484" width="536" height="46" forecolor="#000000" uuid="c6dc96c1-d32e-4e06-b7fe-8225e354f41f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[Para realizar el pago, favor de utilizar las referencias que aparecen en su recibo, sección, "REFERENCIAS PARA PAGO EN VENTANILLA Y PLATAFORMA BANCARIA (Pago en ventanilla o plataforma bancaria)", conserve el comprobante emitido, para posibles aclaraciones.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="469" width="524" height="14" forecolor="#000000" uuid="97623a51-0dab-40e1-b121-2b918c247dcf"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5"/>
+				</textElement>
+				<text><![CDATA[La liquidación de este recibo no exime al Asegurado de adeudos anteriores.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="640" width="554" height="10" forecolor="#3C3033" uuid="4e2506c2-769f-4f7d-b8fd-05711f38dacd"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[En caso de duda o aclaración comunicarse al teléfono: <b>800.288.4747</b>]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

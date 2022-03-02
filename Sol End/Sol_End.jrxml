@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.0.final using JasperReports Library version 6.12.1-ac0eebdb29e4c0985457bab279a6db744d661530  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Sol_Ind" pageWidth="595" pageHeight="842" columnWidth="545" leftMargin="25" rightMargin="25" topMargin="12" bottomMargin="12" uuid="af068156-4b87-4fb0-b2ed-300be7c4679f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="190" splitType="Stretch">
+			<staticText>
+				<reportElement x="451" y="1" width="94" height="14" forecolor="#3C3033" uuid="0931fb49-8512-44b9-990a-34d754d8adda"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Oficina Matriz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="371" y="15" width="174" height="31" forecolor="#3C3033" uuid="125da407-d758-4391-b7e4-8230079e32cd"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Patriotismo 266
+San Pedro de los Pinos
+03800 | CDMX | Tel. 5270.8000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="46" width="544" height="20" forecolor="#3B3033" uuid="1af205d6-8546-4bbd-bbef-c17e1f55d1c3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="12" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SOLICITUD PARA MODIFICACIONES EN LA PÓLIZA]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="66" width="545" height="19" backcolor="#818386" uuid="68feaef1-14ef-4324-9fb2-04414f32118c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="85" width="545" height="21" uuid="c43e9c89-9bb3-495d-9d88-b9f4c5650b11"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="106" width="545" height="21" uuid="8c8ac1ba-b9c8-4514-b1e9-3ed3c9328c79"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="126" width="545" height="21" uuid="8bdce332-133c-4bbd-b1ad-73be050278e6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="146" width="545" height="40" backcolor="#D1D2D4" uuid="e60365b9-5401-4f54-bbf4-56aa985483f0"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="216" y="68" width="110" height="14" forecolor="#FFFFFF" uuid="689cf7cf-0d76-4515-a793-6afec704a1ec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Nombre del asegurado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="109" width="90" height="14" forecolor="#3B3033" uuid="f5873a4a-4e5c-4499-8c9d-4dca1a6ac439"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Correo electrónico:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="129" width="219" height="14" forecolor="#3B3033" uuid="6b97d6b4-3b9b-4e52-b097-5d8054cf3f30"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Los cambios solicitados surten efecto a partir del ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="129" width="19" height="14" forecolor="#3B3033" uuid="9cf16e3c-a949-491e-91ae-a0fbe727706d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="129" width="19" height="14" forecolor="#3B3033" uuid="ce66447e-cc05-4f38-8b58-546fc95282b7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="146" width="545" height="20" forecolor="#3C3033" uuid="828c0a88-a743-491d-ae3f-86c9a9e86a78"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Klavika Md" size="10.5" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Solicito a <b>General de Seguros, S.A.B.</b> la modificación a mi póliza de seguro número:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="166" width="90" height="14" forecolor="#3B3033" uuid="1c72d9b1-04f9-4211-945b-7db95ecc595a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="12" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PÓLIZA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="109" width="50" height="14" forecolor="#3B3033" uuid="3e5694f7-6d00-46db-9b94-c22520b05cd1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Teléfono:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="252" y="178" width="116" height="1" uuid="79468242-3121-4559-8c9d-1c1bdaa79ed6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="628" splitType="Stretch">
+			<rectangle>
+				<reportElement x="330" y="530" width="215" height="57" uuid="0073629d-2a98-44c5-a82c-51780a630ac3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="15" width="545" height="405" uuid="5af3710a-3458-4a27-87bc-171752eb6dd4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="-4" width="545" height="19" backcolor="#818386" uuid="66e190b8-4051-4a0f-9c78-3d1e0275e729"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="212" y="-2" width="118" height="14" forecolor="#FFFFFF" uuid="a38c06ca-0f5c-4a94-8d46-fd6cbdacc8c3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Bd" size="10.5" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Modificaciones a efectuar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="22" width="90" height="14" forecolor="#3B3033" uuid="7e161a4a-63cf-4d50-a1f5-ec2b4d587a17"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[RENOVACIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="39" width="138" height="14" forecolor="#3B3033" uuid="241713c2-c4e9-483e-ae89-ec4cc0542198"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[REEXPEDICIÓN (Explicar Motivo):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="56" width="269" height="14" forecolor="#3B3033" uuid="02e044bf-f21e-4a49-a1f3-bbba1fd6fe6a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DEL DOMICILIO DEL ASEGURADO TITULAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="73" width="300" height="30" forecolor="#3B3033" uuid="57e01c2b-26dc-46f6-a7f4-f73c919a670e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DE NÚMERO DE MOTOR Y NÚMERO DE PLACA
+(Presentar copia de Factura o Tarjeta de Circulación)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="106" width="300" height="30" forecolor="#3B3033" uuid="b20a2e93-4529-4e74-b0b4-b13817376ed7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MODIFICACIÓN DE NÚMERO DE SERIE
+(Presentar copia de Factura o Tarjeta de Circulación)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="139" width="179" height="14" forecolor="#3B3033" uuid="7b97e2d4-6249-4297-b9b5-0ded79f5c2f8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DE OBJETO ASEGURADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="156" width="179" height="14" forecolor="#3B3033" uuid="df58e4fd-6230-447f-85df-52ecb509a205"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DE MODELO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="173" width="250" height="14" forecolor="#3B3033" uuid="7da93b06-f5e0-446a-808d-6f0288516bd6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MODIFICACIÓN DE DEDUCIBLE (Nuevo Deducible)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="190" width="170" height="14" forecolor="#3B3033" uuid="005299f8-a54f-478e-b089-a2d02b1eb770"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DUPLICADO DE PÓLIZA (Explicar motivo):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="207" width="209" height="14" forecolor="#3B3033" uuid="1f03f142-58ac-4eeb-ab06-05f57174c195"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MODIFICACIÓN DE SUMA ASEGURADA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="224" width="179" height="14" forecolor="#3B3033" uuid="7a7e98fe-d545-4440-8fa6-a74939ef8b29"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[REINSTALACIÓN DE SUMA ASEGURADA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="241" width="170" height="14" forecolor="#3B3033" uuid="2ecf36ef-7280-4a0a-984d-d59c35b549b1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ALTA DE INCISO O UBICACIÓN (Detallar):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="258" width="170" height="14" forecolor="#3B3033" uuid="0845ba37-6367-4e30-a744-5244044315fb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BAJA DE INCISO O UBICACIÓN (Detallar):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="275" width="260" height="14" forecolor="#3B3033" uuid="abdfb0a2-3447-4cf9-b95b-f4634c8e752b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DE FORMA DE PAGO(Anexar recibos originales):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="292" width="208" height="14" forecolor="#3B3033" uuid="bb1ce26c-9310-4b23-9cc0-a00fb1e8c88b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CANCELACIÓN DE POLIZA (CORTO PLAZO) Motivos:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="309" width="289" height="14" forecolor="#3B3033" uuid="ea5a9617-16ac-4f0a-986e-713eb40eba28"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CANCELACIÓN A PRORRATA POR SUSTITUCIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="326" width="289" height="14" forecolor="#3B3033" uuid="f165711b-2a7a-487e-a70b-8fb1ea53017a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[ALTA DE COBERTURA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="343" width="289" height="14" forecolor="#3B3033" uuid="34a5f0c0-7134-4154-8fd8-cd6fdf22513e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[BAJA DE COBERTURA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="360" width="420" height="14" forecolor="#3B3033" uuid="682c89a8-7fef-48ae-8367-748da27b5ed4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[MODIFICACIÓN DE BENEFICIARIO PREFERENTE (Cambiar o Agregar), ¿CLÁUSULA DE NO CANCELACIÓN?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="377" width="289" height="14" forecolor="#3B3033" uuid="ba821bce-1339-4652-8b4a-86a8b76684a4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[CAMBIO DE AGENTE (Anexar carta de Nombramiento)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="394" width="78" height="14" forecolor="#3B3033" uuid="ec797075-95bb-4725-9582-b2dccce9eca8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[OTROS (Detallar):]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="420" width="130" height="19" backcolor="#E3E3E3" uuid="7ab80dba-6fe0-4ae0-ab64-f8d98957bf2c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="420" width="140" height="19" backcolor="#E3E3E3" uuid="a7ca179d-35b5-49f6-9448-e3b0ec8b623f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="420" width="140" height="19" backcolor="#E3E3E3" uuid="9d1efd8e-6ed9-444e-ab9a-806f5b1892d1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="420" width="110" height="18" forecolor="#3B3033" uuid="52bf545a-ec17-4665-bae6-804fa94b4335"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Sección]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="420" width="120" height="18" forecolor="#3B3033" uuid="8a5e1678-c43a-419c-8727-85d52c1aa732"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Suma Asegurada Anterior]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="420" width="120" height="18" forecolor="#3B3033" uuid="0347ccc8-0fd6-40b7-acf8-5d5735f653a7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Suma Asegurada Anterior Aumentada/Disminuida]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="410" y="420" width="135" height="19" backcolor="#E3E3E3" uuid="909d2c0b-b739-430f-b19a-2293217e66bc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="420" y="420" width="115" height="18" forecolor="#3B3033" uuid="840c41d7-4adf-4f9c-9c7b-04bbfc9aaedc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Suma Asegurada Actual]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="439" width="130" height="19" uuid="8927f4e6-641e-408b-a5fb-d86ea618d08b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="439" width="140" height="19" uuid="e35a4482-4d9f-466d-90d5-19d3fabd5955"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="439" width="140" height="19" uuid="415c7798-1376-412f-a34c-12e47058c914"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="410" y="439" width="135" height="19" uuid="149a7b04-4c46-487d-a1d8-95116abb2cf6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="458" width="130" height="19" uuid="c6172f1f-c17c-4e72-b6a6-9dd0e287acd5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="458" width="140" height="19" uuid="58634e33-c80e-422c-a2b0-2ff73a040801"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="458" width="140" height="19" uuid="16e8456f-857b-4ec6-af48-49b0d95f3912"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="410" y="458" width="135" height="19" uuid="59c3605b-f820-4d23-82c9-b5d3c7230018"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="477" width="130" height="19" uuid="64f3ed47-67dc-433e-9697-62aebeeba4e1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="477" width="140" height="19" uuid="4e682a2b-164e-43c3-9052-83f4e4bf4e98"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="270" y="477" width="140" height="19" uuid="f41995db-0767-4a24-b907-ca2ea7f97eb9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="410" y="477" width="135" height="19" uuid="3c869203-d278-4001-ae43-01cd224afd28"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="496" width="545" height="34" uuid="6717979c-f2e0-4903-bd9d-04a91b46ac68"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="530" width="195" height="19" uuid="b16d245d-6bf4-4ca0-a324-e7b1ccff45bb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="549" width="195" height="19" uuid="f4c3ca0d-0b3a-485e-86e9-6e866273936f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="568" width="195" height="19" uuid="b35d11d5-fac6-4c22-bb41-ffd0b4b6c3b5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="587" width="330" height="33" uuid="915c65dc-a016-48ac-852b-544e6d3d00ac"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="195" y="530" width="135" height="57" uuid="746de832-97d8-4946-a2cb-fc5cbbe956f5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="330" y="587" width="215" height="33" uuid="ac0b3b51-a98d-46ba-ba23-9dda93c1c7ad"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="9" y="496" width="110" height="18" forecolor="#3B3033" uuid="b6126df7-eff1-45f4-a00f-a81984affb88"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Observaciones:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="531" width="110" height="18" forecolor="#3B3033" uuid="9f52eedf-e9c1-434d-9803-98712545d217"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="550" width="110" height="18" forecolor="#3B3033" uuid="f7226b5f-563b-4e0d-9f88-a5192d5d9eeb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Lugar:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="569" width="110" height="18" forecolor="#3B3033" uuid="73feb369-f3e9-4ecf-9474-239b75931447"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Clave del agente:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="587" width="110" height="18" forecolor="#3B3033" uuid="7db99e2e-ac54-4225-8507-092769455695"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="11" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Nombre del agente:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="211" y="569" width="110" height="18" forecolor="#3B3033" uuid="eef8ac2b-965b-4701-a1fe-7bdbc6c6b39f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Firma del Agente:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="533" width="155" height="9" forecolor="#3B3033" uuid="3ae68613-666b-48b0-80dc-a6568d9ebf7d"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Klavika Rg" size="8" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Autorizo las modificaciones aquí solicitadas.
+Autorizo las modificaciones aquí solicitadas.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="568" width="110" height="16" forecolor="#3B3033" uuid="cc3f510e-bd3a-4aa6-b33f-6f7d82a77ee5"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Firma del Asegurado:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="594" width="211" height="22" forecolor="#3B3033" uuid="ee39c38f-c570-4fc5-8b1f-7efc04d5ebb3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="Klavika Rg" size="7" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[<b>NOTA:</b> Es indispensable contar con la firma del Asegurado para la gestión del trámite solicitado anexando copia de identificación oficial con firma.]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="22" width="20" height="14" forecolor="#818386" uuid="7947dc3d-3bcb-472d-b803-cd129d11d745">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="1"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="39" width="20" height="14" forecolor="#818386" uuid="38580da5-bca6-400a-9a95-f44e7af771c9">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="2"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="56" width="20" height="14" forecolor="#818386" uuid="950192f3-bdaf-455a-ab27-3a9aee0de70c">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="3"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="73" width="20" height="14" forecolor="#818386" uuid="902bf38a-56f2-46d3-8046-26a05b9a63b9">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="4"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="156" width="20" height="14" forecolor="#818386" uuid="7c8d53b1-cb88-4abe-b3bc-db8fe2b2bb20">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="5"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="139" width="20" height="14" forecolor="#818386" uuid="635b5248-212f-4dd5-bc01-b323692ce3a0">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="6"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="106" width="20" height="14" forecolor="#818386" uuid="12e04437-0658-47be-b89c-ce3d5f7bd06c">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="7"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="173" width="20" height="14" forecolor="#818386" uuid="ab34d34d-df5b-421b-a615-2a3a3d349ea3">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="8"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="224" width="20" height="14" forecolor="#818386" uuid="d7214989-2931-4cba-b42d-12df50ce5851">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="9"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="207" width="20" height="14" forecolor="#818386" uuid="68816376-71fd-4196-a89c-4031c53b540d">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="10"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="190" width="20" height="14" forecolor="#818386" uuid="7484fcb9-a5e5-41b7-8636-454359cfc67a">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="11"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="275" width="20" height="14" forecolor="#818386" uuid="8226abf4-6eb2-4c17-a8b7-b890c6c94546">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="12"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="258" width="20" height="14" forecolor="#818386" uuid="da646fd9-64de-4147-b5c2-015d50875df6">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="13"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="241" width="20" height="14" forecolor="#818386" uuid="2213ca07-8ce9-4e94-b4fd-55ce5678d77a">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="14"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="326" width="20" height="14" forecolor="#818386" uuid="db326a10-114f-4a95-9976-29ad426b7fa3">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="15"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="309" width="20" height="14" forecolor="#818386" uuid="57e3db15-72b2-423d-ab82-309313b3c82f">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="16"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="292" width="20" height="14" forecolor="#818386" uuid="2d156591-79cd-4f07-beb4-9db76daeda3f">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="17"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="343" width="20" height="14" forecolor="#818386" uuid="5b8f1628-719a-4592-b549-ca4443638194">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="18"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="377" width="20" height="14" forecolor="#818386" uuid="7463ad86-c1fc-42ab-8882-68dea180f83c">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="19"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="360" width="20" height="14" forecolor="#818386" uuid="7e36b13e-3e7c-4bec-ae86-486361a818eb">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="20"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="10" y="394" width="20" height="14" forecolor="#818386" uuid="fc811e29-c2c9-4d91-9220-3dc5733f2c24">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="21"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="297" y="87" width="16" height="14" forecolor="#3B3033" uuid="7a95d559-9654-45a7-9cc0-ce1417aeb8ca"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="437" y="87" width="12" height="14" forecolor="#3B3033" uuid="645282d2-cd09-4fd9-8258-39c0f3bdfbc5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="120" width="16" height="14" forecolor="#3B3033" uuid="db1b693d-07aa-4db5-b0d2-4f80d4f4952c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="437" y="120" width="12" height="14" forecolor="#3B3033" uuid="300e864b-1571-49cf-a405-977795f91852"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="275" width="16" height="14" forecolor="#3B3033" uuid="a580fa88-8285-400e-8818-de96351cf0a5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[DE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="437" y="275" width="12" height="14" forecolor="#3B3033" uuid="072af9c2-1c48-4966-bfa6-0bf53813fc08"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="463" y="360" width="11" height="14" forecolor="#3B3033" uuid="1f9110c8-9b1f-4cc2-8a00-3c340947feb3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Si]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="360" width="12" height="14" forecolor="#3B3033" uuid="8c75359c-8068-4f9f-900b-e12284903356"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Klavika Rg" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="474" y="362" width="10" height="10" forecolor="#818386" uuid="1d31aeed-8a7e-4a73-adf0-a602d42898df">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="si"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="net.sf.jasperreports.export.pdf.field.read.only" value="false"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" mode="Opaque" x="512" y="362" width="10" height="10" forecolor="#818386" uuid="55ee4228-caab-40f1-a282-5149d48db59b">
+					<property name="net.sf.jasperreports.export.pdf.field.name" value="no"/>
+					<property name="net.sf.jasperreports.export.pdf.field.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.check.type" value="Check"/>
+					<property name="net.sf.jasperreports.export.pdf.field.border.style" value="Inset"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<propertyExpression name="net.sf.jasperreports.export.pdf.field.checked"><![CDATA[]]></propertyExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#818386"/>
+				</box>
+				<textFieldExpression><![CDATA[]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="180" y="51" width="349" height="1" uuid="20e7c78e-f866-4f78-ac73-ccc01869ed88">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="313" y="97" width="80" height="1" uuid="bf93bbc2-ad43-4d60-afe6-c8136c0eec51">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="449" y="97" width="80" height="1" uuid="4bbb5d85-2f6d-46ac-98c4-614fd83f27b9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="313" y="130" width="80" height="1" uuid="3753295c-d5c7-4e89-8691-4ad4067f5cce">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="449" y="130" width="80" height="1" uuid="d1f6d093-a6a7-4f60-af36-7fcca35898c3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="313" y="285" width="80" height="1" uuid="25cae0ef-8160-44ad-85a4-8b721db6aae2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="449" y="285" width="80" height="1" uuid="003ed381-5e1a-435d-b6cd-0399de0cfcfb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="212" y="202" width="317" height="1" uuid="720ac446-d56c-488c-afda-e21d1f47bec5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="212" y="253" width="317" height="1" uuid="6f1050f1-f7f2-4062-a439-496443874185">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="212" y="270" width="317" height="1" uuid="93c08580-a3e6-4335-b31c-bbf0e93e2f54">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="250" y="304" width="279" height="1" uuid="26da5b02-a8f5-4319-9109-3144ef9e0bf7">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="120" y="406" width="408" height="1" uuid="0de19742-2403-4958-8fbc-ab2c3b7f8d0b">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+</jasperReport>
