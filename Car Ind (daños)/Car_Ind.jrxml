@@ -10,8 +10,7 @@
 	<queryString>
 		<![CDATA[SELECT poliza.recibo_fiscal.contratante
 FROM poliza.recibo_fiscal
-LIMIT 1
-]]>
+LIMIT 1]]>
 	</queryString>
 	<field name="contratante" class="java.lang.String">
 		<property name="com.jaspersoft.studio.field.label" value="contratante"/>
@@ -440,10 +439,6 @@ asegura a favor de la persona arriba citada (denominada en adelante El Asegurado
 				<text><![CDATA[Sujeto a: Condiciones Generales para el Seguro de Transporte de Carga GS para Póliza Especifica de viaje
 ]]></text>
 			</staticText>
-			<textField>
-				<reportElement x="140" y="117" width="100" height="14" uuid="eaf23ad3-6a34-437c-99f3-745e135741b0"/>
-				<textFieldExpression><![CDATA[$F{contratante}]]></textFieldExpression>
-			</textField>
 		</band>
 		<band height="514">
 			<staticText>
